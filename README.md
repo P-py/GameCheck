@@ -58,7 +58,7 @@
 [![LinkedIn][linkedin-shield]][linkedin-url]
 [![Java](https://img.shields.io/badge/Kotlin-000000?style=for-the-badge&logo=kotlin&logoColor=white)](https://www.bing.com/search?q=kotlin+docs&cvid=09bf36b937384482bb11751d2fbd9c1a&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQRRg8MgYIAhBFGDwyBggDEEUYQTIGCAQQRRhBMgYIBRBFGEEyCAgGEOkHGPxV0gEIMTEzN2owajmoAgCwAgE&FORM=ANAB01&PC=U531)
 
-![Demo][product-screenshot]
+![Demo](readme_files/demo.png)
 
 The project is capable of doing ADD, DELETE and GET operations from a MySQL locally created or remote, based on a game renting model.
 
@@ -83,7 +83,7 @@ It is a simple project to run and all you gotta do is quick configure a MySQL Da
    ```
 3. Get a free installation of MySQL and do the base configuration @ [MySQL](https://www.mysql.com/) - Keep in mind it is **ESSENCIAL for you to rememeber the password for the MySQL root user**.
 4. Open the MySQL instance like shown below and execute the queries to create the test database
-![Database config](./README_files/database-config.png)
+![Database config](./readme_files/database-config.png)
    ```sql
    CREATE DATABASE gamecheck; 
    CREATE TABLE games(id INT AUTO_INCREMENT PRIMARY KEY, cover VARCHAR(255), description VARCHAR(255), price DOUBLE, title VARCHAR(100));
