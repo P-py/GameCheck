@@ -3,11 +3,24 @@ target/
 !**/src/main/**/target/
 !**/src/test/**/target/
 
+### Trash files
+./jogosRecomendados.json
+./jogosRecomendados-Camila.json
+
+### Individual config files
+./src/main/resources/*
+
+### Dev tests
+./src/main/kotlin/com/local/gamecheck/main/testsDatabase.kt
+./src/main/kotlin/com/local/gamecheck/main/testsUser.kt
+./src/main/kotlin/com/local/gamecheck/main/testsJson.kt
+
 ### IntelliJ IDEA ###
 .idea/modules.xml
 .idea/jarRepositories.xml
 .idea/compiler.xml
 .idea/libraries/
+.idea/
 *.iws
 *.iml
 *.ipr
