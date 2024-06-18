@@ -91,7 +91,7 @@ It is a simple project to run and all you gotta do is quick configure a MySQL Da
    CREATE TABLE subscription_plans(id INT AUTO_INCREMENT PRIMARY KEY, type VARCHAR(255), discountPercentage DOUBLE, gamesIncluded INT, subscriptionFee DOUBLE);
    CREATE TABLE users(id INT AUTO_INCREMENT PRIMARY KEY, name VARCHAR(100), email VARCHAR(255), birthDate VARCHAR(15), user VARCHAR(100));
    ```
-5. **CREATE** the `persistence.mxl` under the `Gamecheck/src/main/resources/META-INF/` folder and copy the hibernate config file below, where you **should edit the fields `javax.persistence.jdbc.password`.
+5. **CREATE** the `persistence.mxl` under the `Gamecheck/src/main/resources/META-INF/` folder and copy the hibernate config file below, where you **should edit the field `javax.persistence.jdbc.password`**.
     ```xml
     <?xml version="1.0" encoding="UTF-8"?>
     <persistence version="2.2" xmlns="http://xmlns.jcp.org/xml/ns/persistence"
